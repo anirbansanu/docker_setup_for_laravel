@@ -88,7 +88,7 @@ RUN rm -rf /var/www/html/*
 
 RUN git config --global http.postBuffer 524288000
 
-RUN git clone https://<github-PAT-Token>@github.com/arvindoet/development-erp.git /var/www/html/development-erp
+RUN git clone https://<github-PAT-Token>@github.com/abc/development-erp.git /var/www/html/development-erp
 
 
 RUN chown -R www-data:www-data /var/www
